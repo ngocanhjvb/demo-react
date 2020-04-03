@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Calculator from "./Temperature/Calculator";
+// import Calculator from "./Temperature/Calculator";
+import Lifecycle from "./LifeCycle/Lifecycle"
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Calculator />
+    <Lifecycle />
   </React.StrictMode>,
   document.getElementById('root')
 );
